@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>물 속 골리앗</title>
+	<style>
+		*{font-family: 'nanumgothic'}
+		body{background: url('water3.jpg') black; background-size:115%;}
+		div{margin:100px;width:auto; position:relative;}
+		#text p{
+			font-size:1.5em; 
+			line-height: 40px; 
+			text-align: right;
+			-webkit-animation:mymove4 8s;
+			animation: mymove4 8s;
+			opacity: 0;
+		}
+		@-webkit-keyframes mymove4{
+			from{opacity: 100;}
+			to{opacity: 0;}
+		}
+		@keyframes mymove4{
+			from{opacity: 100;}
+			to{opacity: 0;}
+		}
+
+		#text2 p{
+			text-align: left;
+			-webkit-animation:mymove5 15s;
+			animation: mymove5 15s;
+			opacity: 0;
+		}
+		@-webkit-keyframes mymove5{
+			from{opacity: 100;}
+			to{opacity: 0;}
+		}
+		@keyframes mymove5{
+			from{opacity: 100;}
+			to{opacity: 0;}
+		}
+
+		#tree1{
+			position:absolute;
+			left:-150px; 
+			top:0px; 
+			transform: rotate(90deg);
+			transition: all 1s;
+			}
+			#tree1:hover{transform: rotateZ(360deg);}
+
+		#tree2{
+			position:absolute;
+			right: -150px;
+			top:485px;
+			transform: rotate(-90deg);
+			transition:all 1s;
+			}
+			#tree2:hover{transform: rotateZ(360deg);}
+
+		#text{
+			position: absolute;
+			top:200px;
+			right:10px;
+		}
+
+		#text2{
+			position: absolute;
+			top:400px;
+			left:-850px;
+		}
+		
+		#black{
+			background: black;
+			width: 10px;
+			height: 1500px;
+			position: absolute;
+			left:530px;
+			top:-900px;
+			-webkit-animation:mymove 10s;
+			animation: mymove 10s;
+		}
+		@-webkit-keyframes mymove {
+			from{height: 0px;}
+			to{height: 1500px;}
+		}
+		@keyframes mymove {
+			from{height: 0px;}
+			to{height: 1500px;}
+		}
+		#black2{
+			background: black;
+			width: 5px;
+			height: 1500px;
+			position: absolute;
+			left:600px;
+			top:-900px;
+			-webkit-animation:mymove 5s;
+			animation: mymove 5s;
+		}
+		@-webkit-keyframes mymove {
+			from{height: 0px;}
+			to{height: 1500px;}
+		}
+		@keyframes mymove {
+			from{height: 0px;}
+			to{height: 1500px;}
+		}
+
+		#black3{
+			background: black;
+			width: 2px;
+			height: 850px;
+			position: absolute;
+			left:300px;
+			top:-900px;
+			-webkit-animation:mymove2 3s;
+			animation: mymove2 3s;
+		}
+		@-webkit-keyframes mymove2 {
+			from{height: 0px;}
+			to{height: 850px;}
+		}
+		@keyframes mymove2 {
+			from{height: 0px;}
+			to{height: 850px;}
+		}
+
+		#black4{
+			background: black;
+			width: 1px;
+			height: 300px;
+			position: absolute;
+			left:800px;
+			top:-900px;
+			-webkit-animation:mymove3 2s;
+			animation: mymove3 2s;
+		}
+		@-webkit-keyframes mymove3 {
+			from{height: 0px;}
+			to{height: 300px;}
+		}
+		@keyframes mymove3 {
+			from{height: 0px;}
+			to{height: 300px;}
+		}
+		#text3{
+			width:900px;
+			position: absolute;
+			top:600px;
+			left: 170px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id= tree1>
+		<img src="dpubsample1.png">
+	</div>
+	<div id= tree2>
+		<img src="dpubsample2.png">
+	</div>
+	<div id= text>
+		<p><em>천 개의 잎사귀는 천 개의 방향을 가지고 있었다
+			<br>
+			천 개의 방향은 한 개의 의지를 가지고 있었다
+			<br>
+			살아남는 것
+			<br>
+			나무답게 번식하고 나무답게 죽는 것
+			<br>
+			어떻게 죽는 것이 나무 다운 삶인지는 알 수 없지만</em>
+		</p>
+	<div id=text2>
+		<p><em>고목은 장마 내 몸을 틀었다
+			<br>
+			끌려가는 건지 버티려는 건지 모를 몸짓이었다
+			<br>
+			뿌리가 있는 것은 의당 그래야 한다는 듯,
+			<br>
+			순응과 저항 사이의 미묘한 춤을 췄다</em>
+		</p>
+	<div id=black>
+	</div>
+	<div id=black2>
+	</div>
+	<div id=black3>
+	</div>
+	<div id=black4>
+	</div>
+	<div id=text3>
+		<h1><em>자연은 자연스럽지 않게 자연이고자 했다. 예상하지 말라는 듯.</em></h1>
+	</div>
+
+</body>
+</html>
